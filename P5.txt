@@ -1,0 +1,9 @@
+Réduire dimensions: linéaire => ACP, non linéaire => t-SNE
+Comparer clustering hierarchique / k-means / clustering par densité
+
+ISOMAP conserve la structure globale
+
+questions:
+
+manipulation des données: créer nouvelles variables dans le dataset principal avec les autres datasets ?
+
