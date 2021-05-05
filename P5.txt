@@ -1,10 +1,25 @@
 Questions:
 
-On va avoir un petit nombre de variable. Sens de la réduction dimensionnelle ?
+Ignorer sellers / country codes ok ? => country code pour visualisation / top vendeur pour chaque client
 
+Centrage réduction ?
+
+Interprétaibilité des clusters après réduction de dimension (exploitable et facile d'utilisation) ?
+
+Améliorations effectuées sur les modèles ? => méthode du coude par exemple pour nombre optimal de clusters pour kmeans
+
+nombre de composantes du TSNE ? => TSNE pour visualisation
+
+Analyse stabilité => découpage avec les timestamps: on génère un nouveau modèle pour les X premiers mois (on utilise le meilleur) et on observe sa stabilité.
+
+
+
+Todo:
 
 Réduire dimensions: linéaire => ACP, non linéaire => t-SNE (structure locale), ISOMAP (structure globale)
 Comparer clustering hierarchique / k-means / clustering par densité
 
 
+Pas de réduction de dimension
 
+Méthode RFM: https://www.kaggle.com/jnikhilsai/rfm-clustering-of-customers-using-k-means
