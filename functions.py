@@ -114,3 +114,11 @@ def plot_dendrogram(Z, names):
     )
     plt.show()
 
+main_categories = {'culture': ['art', 'musical_instruments', 'cool_stuff', 'books_general_interest', 'audio', 'music', 'books_imported', 'dvds_blu_ray', 'arts_and_craftmanship', 'cine_photo', 'cds_dvds_musicals', 'sports_leisure'],
+    'selfcare': ['perfumery', 'health_beauty', 'luggage_accessories', 'fashion_shoes', 'fashion_bags_accessories', 'watches_gifts', 'fashion_underwear_beach', 'fashion_male_clothing', 'fashio_female_clothing', 'fashion_sport', 'fashion_childrens_clothes', 'diapers_and_hygiene', 'flowers'], 
+    'housecare': ['housewares', 'furniture_decor', 'home_appliances', 'office_furniture', 'stationery', 'furniture_living_room', 'air_conditioning', 'kitchen_dining_laundry_garden_furniture', 'home_appliances_2', 'party_supplies', 'home_confort', 'small_appliances_home_oven_and_coffee', 'christmas_supplies', 'furniture_bedroom', 'home_comfort_2', 'furniture_mattress_and_upholstery'], 
+    'children': ['baby', 'toys', 'bed_bath_table', 'pet_shop'], 
+    'electronics': ['computers_accessories', 'electronics', 'telephony', 'computers', 'small_appliances', 'consoles_games', 'fixed_telephony', 'tablets_printing_image'], 
+    'labor': ['construction_tools_safety', 'garden_tools', 'auto', 'home_construction', 'construction_tools_construction', 'signaling_and_security', 'costruction_tools_tools', 'construction_tools_lights', 'books_technical', 'costruction_tools_garden'], 
+    'work': ['agro_industry_and_commerce', 'industry_commerce_and_business', 'market_place', 'security_and_services'], 
+    'food': ['drinks', 'la_cuisine', 'food_drink', 'food']}

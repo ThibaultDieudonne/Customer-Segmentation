@@ -1,14 +1,22 @@
 Questions:
 
-Ignorer sellers / country codes ok ? => country code pour visualisation / top vendeur pour chaque client
+Pertinence RFM quand les clients ont moins de 3 achats ?
+
+Utilisation ARI sachant qu'on est en non supervixé ? (ressources supplémentaires)
+
+Trop de one hot pour manage les catégories => main_categories ok ?
 
 Centrage réduction ?
 
-Interprétaibilité des clusters après réduction de dimension (exploitable et facile d'utilisation) ?
+Unité de product_volume ?
+
+---------------------------------------------------------------------------
+
+Ignorer sellers / country codes ok ? => country code pour visualisation
 
 Améliorations effectuées sur les modèles ? => méthode du coude par exemple pour nombre optimal de clusters pour kmeans
 
-nombre de composantes du TSNE ? => TSNE pour visualisation
+nombre de composantes du TSNE ? => TSNE pour visualisation donc 2
 
 Analyse stabilité => découpage avec les timestamps: on génère un nouveau modèle pour les X premiers mois (on utilise le meilleur) et on observe sa stabilité.
 
@@ -16,10 +24,8 @@ Analyse stabilité => découpage avec les timestamps: on génère un nouveau mod
 
 Todo:
 
-Réduire dimensions: linéaire => ACP, non linéaire => t-SNE (structure locale), ISOMAP (structure globale)
-Comparer clustering hierarchique / k-means / clustering par densité
+Comparer/Optimiser: clustering hierarchique / k-means / clustering par densité (kmeans / CAH / DBSCAN)
+
+Méthode RFM (Recency Frequency Monetary): https://www.kaggle.com/jnikhilsai/rfm-clustering-of-customers-using-k-means
 
 
-Pas de réduction de dimension
-
-Méthode RFM: https://www.kaggle.com/jnikhilsai/rfm-clustering-of-customers-using-k-means
