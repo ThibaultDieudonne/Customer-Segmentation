@@ -1,6 +1,13 @@
+Todo:
+
+Comparer/Optimiser: clustering hierarchique / k-means / clustering par densité (kmeans / CAH / DBSCAN)
+
+
 Questions:
 
-Pertinence RFM quand les clients ont moins de 3 achats ?
+Trier manuellement les variables à utiliser ?
+
+Pertinence RFM quand les clients ont moins de 3 achats (https://www.kaggle.com/jnikhilsai/rfm-clustering-of-customers-using-k-means) ?
 
 Utilisation ARI sachant qu'on est en non supervixé ? (ressources supplémentaires)
 
@@ -20,12 +27,5 @@ nombre de composantes du TSNE ? => TSNE pour visualisation donc 2
 
 Analyse stabilité => découpage avec les timestamps: on génère un nouveau modèle pour les X premiers mois (on utilise le meilleur) et on observe sa stabilité.
 
-
-
-Todo:
-
-Comparer/Optimiser: clustering hierarchique / k-means / clustering par densité (kmeans / CAH / DBSCAN)
-
-Méthode RFM (Recency Frequency Monetary): https://www.kaggle.com/jnikhilsai/rfm-clustering-of-customers-using-k-means
 
 
