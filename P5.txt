@@ -2,20 +2,25 @@ Todo:
 
 Comparer/Optimiser: clustering hierarchique / k-means / clustering par densité (kmeans / CAH / DBSCAN)
 
+Centrage réduction 
+
+
 
 Questions:
 
-Trier manuellement les variables à utiliser ?
-
 Pertinence RFM quand les clients ont moins de 3 achats (https://www.kaggle.com/jnikhilsai/rfm-clustering-of-customers-using-k-means) ?
 
+Trier manuellement les variables à utiliser pour réduire le nombre ?
+
+Est qu'on peut prendre k de kmeans pour le CAH ?
+
+Comment chjoisir eps pour DBSCAN ? 
+
+Critique silhouette score
+
+metrics: distortion ok ?, silhouette, calinski_harabasz => quoi utiliser ?
+
 Utilisation ARI sachant qu'on est en non supervixé ? (ressources supplémentaires)
-
-Trop de one hot pour manage les catégories => main_categories ok ?
-
-Centrage réduction ?
-
-Unité de product_volume ?
 
 ---------------------------------------------------------------------------
 
@@ -29,3 +34,8 @@ Analyse stabilité => découpage avec les timestamps: on génère un nouveau mod
 
 
 
+
+
+Doc:
+
+https://towardsdatascience.com/explaining-k-means-clustering-5298dc47bad6
