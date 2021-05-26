@@ -1,41 +1,20 @@
-Todo:
-
-Comparer/Optimiser: clustering hierarchique / k-means / clustering par densité (kmeans / CAH / DBSCAN)
-
-Centrage réduction 
-
-
-
 Questions:
 
-Pertinence RFM quand les clients ont moins de 3 achats (https://www.kaggle.com/jnikhilsai/rfm-clustering-of-customers-using-k-means) ?
+Comment comparer deux modèles autrement que par l'explication ? => silhouette seulement pour kmeans, ARI need true labels
 
-Trier manuellement les variables à utiliser pour réduire le nombre ?
+DBSCAN trouve 95 clusters => min_samples plus élevé
 
-Est qu'on peut prendre k de kmeans pour le CAH ?
+analyse de la stabilité => meilleur modèle global => rerun sur une période => silhouette, nombre d'individus par segment
 
-Comment chjoisir eps pour DBSCAN ? 
-
-Critique silhouette score
-
-metrics: distortion ok ?, silhouette, calinski_harabasz => quoi utiliser ?
-
-Utilisation ARI sachant qu'on est en non supervixé ? (ressources supplémentaires)
+analyse descriptive de chaque segment
 
 ---------------------------------------------------------------------------
 
-Ignorer sellers / country codes ok ? => country code pour visualisation
-
-Améliorations effectuées sur les modèles ? => méthode du coude par exemple pour nombre optimal de clusters pour kmeans
-
-nombre de composantes du TSNE ? => TSNE pour visualisation donc 2
-
-Analyse stabilité => découpage avec les timestamps: on génère un nouveau modèle pour les X premiers mois (on utilise le meilleur) et on observe sa stabilité.
-
-
-
+country code pour visualisation
 
 
 Doc:
 
 https://towardsdatascience.com/explaining-k-means-clustering-5298dc47bad6
+
+https://openclassrooms.com/fr/courses/5869986-perform-an-exploratory-data-analysis/6177861-analyze-the-results-of-a-k-means-clustering
