@@ -1,17 +1,6 @@
-Questions:
+Todo:
 
-Comment comparer deux modèles autrement que par l'explication ? => silhouette seulement pour kmeans, ARI need true labels
-
-DBSCAN trouve 95 clusters => min_samples plus élevé
-
-analyse de la stabilité => meilleur modèle global => rerun sur une période => silhouette, nombre d'individus par segment
-
-analyse descriptive de chaque segment
-
----------------------------------------------------------------------------
-
-country code pour visualisation
-
+Explicativité: Renomer les segments + Regroup DBSCAN clusters
 
 Doc:
 
