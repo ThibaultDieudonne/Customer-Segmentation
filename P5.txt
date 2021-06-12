@@ -1,9 +1,6 @@
 Todo:
 
-Explicativité: Renomer les segments + Regroup DBSCAN clusters
+Stratégie d'ajout de nouveaux client ?
 
-Doc:
+(Explicativité: Renomer les segments + Regroup DBSCAN clusters)
 
-https://towardsdatascience.com/explaining-k-means-clustering-5298dc47bad6
-
-https://openclassrooms.com/fr/courses/5869986-perform-an-exploratory-data-analysis/6177861-analyze-the-results-of-a-k-means-clustering
