@@ -1,1 +1,1 @@
-jupyter notebook notebook.ipynb
+jupyter notebook P5_02_notebook.ipynb
