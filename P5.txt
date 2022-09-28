@@ -1,6 +1,0 @@
-Todo:
-
-Stratégie d'ajout de nouveaux client ?
-
-(Explicativité: Renomer les segments + Regroup DBSCAN clusters)
-
